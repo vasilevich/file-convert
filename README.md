@@ -12,7 +12,8 @@ Please install [libreoffice](https://www.libreoffice.org/), [imagemagick](https:
 **(Note: Please do restart your machine after installed all required software.)**
 
 ###IMPORTANT  
-Make sure you install libreoffice to the USER you launch nodejs with and that this user HAS a home directory!  
+Make sure you install libreoffice to the USER you launch nodejs with and that this user HAS a home directory!
+cd ~ and make sure that user dir has the same permission as the user!
 try to convert a file from inside that USER to properly test!  
 in case you install directly from libreoffice website,  
 MAKE SURE you use the ./install script that comes inside the tar.gz inside the USER!
